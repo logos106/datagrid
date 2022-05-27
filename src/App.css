@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+.rdg-cell {
+  color: #747479;
+}
+
+.select-cell {
+  padding: 0.5rem;
+}
+
+.boolean-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.id-cell {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.rdg-cell a {
+
+  color: #5988F0;
+}
+
+
+.select-low {
+  background-color: #FCE4EC;
+}
+
+.select-high {
+  background-color: #B9F6CA;
+}
+
+.select-medium {
+  background-color: #E0F7FA;
+}
+
+.single-select {
+  border-radius: 4px;
+  padding: 0.1rem 0.25rem;
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  line-height: initial;
+  align-items: center;
+}
+
+
+
+
+.select-class {
+  appearance: none;
+  box-sizing: border-box;
+  inline-size: 100%;
+  block-size: 100%;
+  padding-block: 0;
+  padding-inline: 6px;
+  border: 2px solid #ccc;
+  vertical-align: top;
+  color: var(--rdg-color);
+  background-color: var(--rdg-background-color);
+  font-family: inherit;
+  font-size: var(--rdg-font-size);
+
+}
+
+.select-class:focus {
+
+  border-color: var(--rdg-selection-color);
+  outline: none;
+}
+
+.select-class::placeholder {
+
+  color: #999;
+  opacity: 1;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#root,
+body,
+html {
+  height: 100%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
